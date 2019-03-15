@@ -13,7 +13,7 @@ The most commonly used rotational cipher is `ROT13`.
 
 A `ROT13` on the Latin alphabet would be as follows:
 
-```plain
+```text
 Plain:  abcdefghijklmnopqrstuvwxyz
 Cipher: nopqrstuvwxyzabcdefghijklm
 ```
@@ -23,6 +23,7 @@ It is stronger than the Atbash cipher because it has 27 possible keys, and 25 us
 Ciphertext is written out in the same formatting as the input including spaces and punctuation.
 
 ## Examples
+
 - ROT5  `omg` gives `trl`
 - ROT0  `c` gives `c`
 - ROT26 `Cool` gives `Cool`
@@ -34,10 +35,8 @@ Ciphertext is written out in the same formatting as the input including spaces a
 Execute the tests with:
 
 ```bash
-$ elixir bob_test.exs
+$ elixir rotational_cipher_test.exs
 ```
-
-(Replace `bob_test.exs` with the name of the test file.)
 
 ### Pending tests
 
@@ -62,8 +61,9 @@ Or, you can enable all the tests by commenting out the
 # ExUnit.configure exclude: :pending, trace: true
 ```
 
-For more detailed information about the Elixir track, please
-see the [help page](http://exercism.io/languages/elixir).
+If you're stuck on something, it may help to look at some of
+the [available resources](https://exercism.io/tracks/elixir/resources)
+out there where answers might be found.
 
 ## Source
 
@@ -71,4 +71,3 @@ Wikipedia [https://en.wikipedia.org/wiki/Caesar_cipher](https://en.wikipedia.org
 
 ## Submitting Incomplete Solutions
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-

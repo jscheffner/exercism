@@ -1,4 +1,7 @@
 .idea
+users
+.vscode
+drafts
 
 ### Clojure ###
 **/pom.xml
